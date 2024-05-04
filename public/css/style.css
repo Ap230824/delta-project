@@ -1,1 +1,136 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 
+/* containe */
+.container{
+    flex: 1;
+}
+
+/* Navbar
+ */
+ .navbar{
+    height: 5rem;
+    background-color: #fff;
+ }
+
+ .fa-compass{
+    color: #fe424d;
+    font-size: 2rem;
+ }
+
+ .nav-link{
+    color: #222222 !important;
+ }
+
+
+ /* FOOTER */
+
+.f-info-links a{
+    text-decoration: none;
+    color: #222222;
+ }
+
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+
+.f-info{
+    text-align: center;
+    height: 8rem;
+    background-color: #ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+}
+
+.f-info-links , .f-info-socials, .f-info-brand{
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-info-socials i{
+    margin-right: 1rem;
+    font-size: 1.2784rem;
+}
+  /* Cards */
+
+  .listing-card{
+    border: none !important;
+    margin-bottom: 2rem;
+  }
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body{
+    padding: 0 !important;
+}
+
+.card-text p{
+        font-weight: 400 !important;
+}
+
+.listing-link{
+    text-decoration: none !important;
+}
+
+
+/* OVEARLAY EFFECT OR CARD EFFECT */
+
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    opacity: 0.24;
+    background-color: #fff;
+}
+ 
+/* NEW PAGE */
+.add-btn{
+    background-color: #fe424d !important; 
+    border: none !important;
+}
+
+/* EDIT Page */
+.edit-btn{
+    background-color: #fe424d !important; 
+    border: none !important;
+   
+}
+.edit-btn a{
+    border: none !important;
+    text-decoration: none !important;
+    color: #fff;
+  
+}
+ 
+
+/* SHOW PAGE  */
+
+.show-img{
+    height: 30vh;
+}
+
+.btns{
+    display: flex;
+}
+
+.show-card{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* map style */
+#map{
+  height: 400px;
+  width: 80vh;
+}
